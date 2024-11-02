@@ -1,0 +1,16 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot with anti-link detection and music playback",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.56.0",
+    "ytdl-core": "^4.11.1",
+    "yt-search": "^2.10.3",
+    "fs": "latest",
+    "path": "latest"
+  }
+}
